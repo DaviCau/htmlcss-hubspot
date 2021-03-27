@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="shortcut icon" href="img/HubSpot-Inversed-Favicon.webp" type="image/x-icon">
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous">
         <title>Hubspot</title>
     </head>
@@ -15,10 +15,10 @@
         
         <!-- Testata pagina -->
         <header>
-            
-            <div id="header-nav">
+            <!-- Menu fisso -->
+            <div id="nav-fix">
                 <div class="container clearfix">
-                    <div class="header-nav-left float-left">
+                    <div class="nav-fix-left float-left">
                         <ul class="list-inline">
                             <li>
                                 <a href="#">
@@ -32,7 +32,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="header-nav-right float-right">
+                    <div class="nav-fix-right float-right">
                         <ul class="list-inline">
                             <li>
                                 <a href="#"><img src="img/search-20icon.webp" id="search-img"></a>
@@ -47,13 +47,14 @@
                     </div>
                 </div>
             </div>
-            <!-- Menu fisso -->
+            <!-- /Menu fisso -->
+            
             <div class="container">
-                <div class="nav-fix clearfix">
+                <div class="header-nav clearfix">
                     <div class="logo float-left">
                         <img src="img/logo.svg" id="logo-img">
                     </div>
-                    <div class="nav-fix-right float-right">
+                    <div class="header-nav-right float-right">
                         <ul class="list-inline">
                             <li>
                                 <a href="#">
@@ -86,10 +87,17 @@
                     </div>
                 </div>
             </div>
-            <!-- /Menu fisso -->
 
             <div class="jumbotron">
-
+                <div class="container">
+                    <div class="w-50 jumbotron-text">
+                        <h1 class="jumbotron-title">There's a better way to grow.</h1>
+                        <p class="main-text">Marketing, sales, and service software that helps your business grow without compromise. Because "good for the business" should also mean "good for the costumer."</p>
+                        <a href="#" class="btn btn-orange btn-lg">Get Hubspot Free</a>
+                        <p class="desc-btn">Get started with FREE tools, and upgrade as you grow.</p>
+                    </div>
+                </div>
+                <div class="jumbotron-divider"></div>
             </div>
         </header>
         <!-- /Testata pagina -->

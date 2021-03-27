@@ -10,7 +10,8 @@ body {
 }
 
 .container {
-    width: 90%;
+    position: relative;
+    width: 80%;
     margin: auto;
 }
 
@@ -53,9 +54,55 @@ body {
 .btn-orange:hover {
     background-color: #ffbcac;
 }
+.btn-lg {
+    padding: 10px 20px;
+}
+
+.main-text {
+    font-size: 14px;
+    color: #32495b;
+}
+
+.w-50 {
+    width: 50%;
+}
 
 /* Menu fisso */
-.nav-fix {
+#nav-fix{
+    position: fixed;
+    top: 0;
+    height: 70px;
+    line-height: 70px;
+    width: 100%;
+    font-size: 14px;
+    background-color: #f4f9fd;
+    border-bottom: solid 1px #32495b;
+}
+
+.nav-fix-left a {
+    display: inline-block;
+    line-height: 1;
+    padding-right: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #32495b;
+}
+.nav-fix-left li:first-child a{
+    border-right: solid 1px #32495b;
+}
+
+.nav-fix-right li {
+    margin-left: 15px;
+}
+
+#search-img {
+    height: 16px;
+    vertical-align: middle;
+}
+
+/* Header */
+.header-nav {
+    margin-top: 70px;
     height: 70px;
     line-height: 70px;
     background-color: white;
@@ -65,44 +112,54 @@ body {
     vertical-align: middle;
 }
 
-.nav-fix-right a {
+.header-nav-right a {
     display: inline-block;
     line-height: 1;
     text-decoration: none;
     color: #32495b;
     margin-left: 15px;
 }
-.nav-fix-right a i {
+.header-nav-right a i {
     padding-left: 5px;
 }
 
-/* Header */
-#header-nav{
-    height: 70px;
-    line-height: 70px;
+.jumbotron {
+    position: relative;
+    height: 530px;
+    background-image: url("../img/jumbotron.png");
+    background-size: contain;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-color: #fff3ee;
+}
+.jumbotron-divider {
+    position: absolute;
+    bottom: 0;
     width: 100%;
-    font-size: 14px;
-    background-color: #f4f9fd;
-    border-bottom: solid 1px #32495b;
+    height: 70px;
+    background-color: #afebe4;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
 }
 
-.header-nav-left a {
+.jumbotron-title {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.jumbotron-text .main-text {
+    margin-bottom: 20px;
+}
+.jumbotron-text .btn {
     display: inline-block;
-    line-height: 1;
-    padding-right: 10px;
-    margin-right: 10px;
-    text-decoration: none;
+    margin-bottom: 20px;
+}
+.desc-btn{
+    font-size: 12px;
     color: #32495b;
 }
-.header-nav-left li:first-child a{
-    border-right: solid 1px #32495b;
-}
 
-.header-nav-right li {
-    margin-left: 15px;
-}
-
-#search-img {
-    height: 16px;
-    vertical-align: middle;
+.jumbotron-text {
+    position: absolute;
+    left: 0;
+    top: 50px;
 }
