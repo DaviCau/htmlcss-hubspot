@@ -63,6 +63,11 @@ body {
     color: #32495b;
 }
 
+h2 {
+    color: #32495b;
+    padding-bottom: 30px;
+}
+
 .w-50 {
     width: 50%;
 }
@@ -179,6 +184,10 @@ body {
 #section1 {
     background-color: #f4f9fd;
 }
+#section1 h3 {
+    color: #32495b;
+    padding-bottom: 25px;
+}
 
 #intro {
     padding: 40px 10%;
@@ -187,12 +196,8 @@ body {
 #intro img {
     width: 20%;
 }
-#intro h2 {
-    color: #32495b;
-    padding-bottom: 30px;
-}
 
-#free-crm {
+.box-section1 {
     position: relative;
     margin-bottom: 40px;
     background-color: white;
@@ -208,12 +213,10 @@ body {
     width: 30%;
     text-align: center;
 }
-.free-crm-left img {
+.img-section1 {
     display: block;
-    width: 40%;
-    margin: auto;
-    padding-top: 40px;
-    padding-bottom: 15px;
+    height: 90px;
+    margin: auto auto 20px auto;
 }
 .free-crm-left .btn {
     display: inline-block;
@@ -222,10 +225,6 @@ body {
 .free-crm-right {
     width: 70%;
     padding: 40px 0;
-}
-.free-crm-right h3 {
-    color: #32495b;
-    padding-bottom: 25px;
 }
 .free-crm-right .main-text:not(li .main-text) {
     padding: 0 25% 25px 0;
@@ -242,4 +241,30 @@ body {
 }
 .free-crm-right li span {
     padding-left: 10px;
+}
+
+.box-hub {
+    width: calc((100% - 80px) / 3);
+    margin-bottom: 40px;
+    padding: 20px 30px;
+    text-align: center;
+}
+#box-center {
+    margin: auto 40px;
+}
+
+.box-hub hr{
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.box-hub ul {
+    list-style: none;
+    padding-top: 20px;
+    text-align: left;
+}
+
+.box-hub .btn {
+    display: inline-block;
+    margin-top: 35px;
 }
