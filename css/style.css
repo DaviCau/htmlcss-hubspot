@@ -362,6 +362,11 @@ h2:not(#title-section2) {
 footer {
     background-color: #32495b;
 }
+footer a:not(.btn) {
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+}
 
 .link-col {
     width: 25%;
@@ -378,11 +383,15 @@ footer {
 .link-col li:first-child {
     padding-bottom: 20px;
 }
-.link-col a:not(.btn) {
-    text-decoration: none;
-    color: white;
-    margin-right: 15px;
-}
 .link-col .btn {
     display: inline-block;
+}
+
+#languages {
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+#languages .list-inline {
+    padding-bottom: 15px;
 }
