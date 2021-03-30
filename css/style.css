@@ -361,18 +361,20 @@ h2:not(#title-section2) {
 /* Footer */
 footer {
     background-color: #32495b;
+    color: white;
+    font-size: 12px;
 }
 footer a:not(.btn) {
     text-decoration: none;
     color: white;
+}
+footer .list-inline li:not(:last-child) {
     margin-right: 15px;
 }
 
 .link-col {
     width: 25%;
     padding: 40px 5% 40px 0;
-    color: white;
-    font-size: 12px;
 }
 .link-col ul {
     list-style: none;
@@ -387,11 +389,27 @@ footer a:not(.btn) {
     display: inline-block;
 }
 
+#social-links a{
+    margin-right: 15px;
+}
+
 #languages {
     text-align: center;
     border-bottom: 1px solid white;
+    margin-bottom: 40px;
 }
 
 #languages .list-inline {
     padding-bottom: 15px;
+}
+
+#copyright {
+    padding-bottom: 40px;
+}
+
+.logo-bottom img {
+    padding-bottom: 5px;
+}
+.policy {
+    text-align: right;
 }
