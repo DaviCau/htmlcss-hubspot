@@ -72,6 +72,18 @@ h2:not(#title-section2) {
     width: 50%;
 }
 
+.starter-box-text .main-text {
+    margin-bottom: 20px;
+}
+.starter-box-text .btn {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.desc-btn{
+    font-size: 12px;
+    color: #32495b;
+}
+
 .feature {
     text-transform: uppercase;
     color: #32495b;
@@ -163,17 +175,6 @@ h2:not(#title-section2) {
     color: #32495b;
     font-size: 40px;
     margin-bottom: 20px;
-}
-.jumbotron-text .main-text {
-    margin-bottom: 20px;
-}
-.jumbotron-text .btn {
-    display: inline-block;
-    margin-bottom: 20px;
-}
-.desc-btn{
-    font-size: 12px;
-    color: #32495b;
 }
 
 .jumbotron-text {
@@ -328,7 +329,7 @@ h2:not(#title-section2) {
 
 .sponsors-box {
     width: 70%;
-    padding: 50px 5% 0 15%;
+    padding: 50px 5%;
 }
 .sponsor-item {
     width: 25%;
@@ -338,4 +339,17 @@ h2:not(#title-section2) {
 .sponsor-img {
     width: 100%;
     vertical-align: middle;
+}
+
+.starter-box {
+    width: 35%;
+    padding: 40px 0;
+}
+
+.woman-img {
+    width: 35%;
+    padding: 20px;
+}
+.woman-img img {
+    width: 100%;
 }
