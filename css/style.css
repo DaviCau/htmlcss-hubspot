@@ -37,7 +37,7 @@ body {
 
 .btn {
     text-decoration: none;
-    padding: 5px 10px;
+    padding: 10px 10px;
     border-radius: 5px;
 }
 .btn-border {
@@ -50,6 +50,10 @@ body {
 .btn-orange {
     color: white;
     background-color: #fe775a;
+}
+.btn-withe {
+    color: #32495b;
+    background-color: white;
 }
 .btn-orange:hover {
     background-color: #ffbcac;
@@ -352,4 +356,33 @@ h2:not(#title-section2) {
 }
 .woman-img img {
     width: 100%;
+}
+
+/* Footer */
+footer {
+    background-color: #32495b;
+}
+
+.link-col {
+    width: 25%;
+    padding: 40px 5% 40px 0;
+    color: white;
+    font-size: 12px;
+}
+.link-col ul {
+    list-style: none;
+}
+.link-col li {
+    padding-bottom: 15px;
+}
+.link-col li:first-child {
+    padding-bottom: 20px;
+}
+.link-col a:not(.btn) {
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+}
+.link-col .btn {
+    display: inline-block;
 }
